@@ -1,0 +1,260 @@
+	.main-nav {
+		display: flex;
+		align-items: center;
+		}
+
+	.nav-theme-btn {
+		background-color: #4d2200;
+		border: 1px solid #e7e7e7;
+		border-radius: 50%;
+		padding: 10px;
+		margin-right: 10px;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		}
+
+	.nav-theme-btn:hover {
+  		background-color: #000000;
+		box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+		}
+
+	.nav-theme-btn .material-icons {
+		font-size: 22px;
+		color: white;
+	}
+
+	body.light-mode{
+  			background-image: url("bg.jpg");
+  			background-repeat: no-repeat;
+  			background-size: cover;
+  			background-attachment: fixed;
+ 			
+ 		body {
+ 			font-family: Arial, sans-serif;
+  			margin: 0;
+  			padding: 0;
+ 			}
+
+ 		header {
+  			background-color: #ffffff;
+ 			color: #ffc23c;
+  			text-align: center;
+			text-shadow: 2px 2px 2px rgb(46 91 173 / 0.6);
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+  			}
+
+  		nav {
+  			background-color: #4d2200;
+   			padding: 5px;
+  			}
+
+  		nav a {
+ 			color: #fff;
+  			text-decoration: none;
+			padding: 10px;
+			margin-right: 10px;
+			display: inline-block;
+			}
+
+		.button {
+    			display: inline-block;
+    			padding: 10px 20px;
+    			background-color: #4d2200;
+    			color: white;
+    			text-decoration: none;
+			border: 1px solid #e7e7e7;
+    			border-radius: 50%;
+			}
+
+		.button:hover {
+    			background-color: #AB5011;
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+			}
+
+		.material-icons {
+			padding: 5px;
+       			font-size: 20px;
+        		width: 20px;
+       			text-decoration: none;
+        		margin: 5px 10px;
+    			}
+
+    		.facebook {
+       			background: #3b5998;
+        		color: white;
+    			}
+
+    		.X {
+        		background: #000000;
+        		color: white;
+    			}
+
+    		.photo_camera {
+        		background: #ff69b4;
+			color: white;
+			}
+
+		.container {
+        		display: flex;
+			justify-content: space-between;
+			max-width: 95%;
+			margin: 0 auto;
+			padding: 20px;
+  			}
+
+ 		article p {
+			text-align: justify;
+			}
+
+		main {
+			flex: 2;
+			}
+
+		article {
+			background-color: #ffc23c;
+			margin-bottom: 20px;
+			padding: 10px 20px;
+			border: 1px solid rgb(145, 145, 145);
+			margin-right: 10px;
+			}
+
+		aside {
+			flex: 0.5;
+			background-color: #f5a9a0;
+			padding: 10px;
+			}
+
+		.responsive-image {
+            		width: 100%;
+            		height: auto;
+        		}
+
+		footer {
+			background-color: #4d2200;
+			color: #fff;
+			text-align: center;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			}
+
+		}
+
+		body.dark-mode{
+  			background-image: url("bgdark.jpg");
+  			background-repeat: no-repeat;
+  			background-size: cover;
+  			background-attachment: fixed;
+
+
+		body {
+ 			font-family: Arial, sans-serif;
+  			margin: 0;
+  			padding: 0;
+ 			}
+
+ 		header {
+  			background-color: #222222;
+ 			color: #C48D1B;
+  			text-align: center;
+			text-shadow: 2px 2px 2px rgb(46 91 173 / 0.6);
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+  			}
+
+  		nav {
+  			background-color: #4d2200;
+   			padding: 5px;
+  			}
+
+  		nav a {
+ 			color: #fff;
+  			text-decoration: none;
+			padding: 10px;
+			margin-right: 10px;
+			display: inline-block;
+			}
+
+		.button {
+    			display: inline-block;
+    			padding: 10px 20px;
+    			background-color: #4d2200;
+    			color: white;
+    			text-decoration: none;
+			border: 1px solid #e7e7e7;
+    			border-radius: 50%;
+			}
+
+		.button:hover {
+    			background-color: #664975;
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+			}
+
+		.material-icons {
+			padding: 5px;
+       			font-size: 20px;
+        		width: 20px;
+       			text-decoration: none;
+        		margin: 5px 10px;
+    			}
+
+    		.facebook {
+       			background: #3b5998;
+        		color: white;
+    			}
+
+    		.X {
+        		background: #000000;
+        		color: white;
+    			}
+
+    		.photo_camera {
+        		background: #ff69b4;
+			color: white;
+			}
+
+		.container {
+        		display: flex;
+			justify-content: space-between;
+			max-width: 95%;
+			margin: 0 auto;
+			padding: 20px;
+  			}
+
+ 		article p {
+			text-align: justify;
+			}
+
+		main {
+			flex: 2;
+			}
+
+		article {
+			background-color: #054878;
+			margin-bottom: 20px;
+			padding: 10px 20px;
+			border: 1px solid rgb(145, 145, 145);
+			margin-right: 10px;
+			}
+
+		aside {
+			flex: 0.5;
+			background-color: #664975;
+			padding: 10px;
+			}
+
+		.responsive-image {
+            		width: 100%;
+            		height: auto;
+        		}
+
+		footer {
+			background-color: #4d2200;
+			color: #fff;
+			text-align: center;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			}
+ 			}
