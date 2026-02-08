@@ -1,2 +1,5 @@
 # Food-Blog
-A static site for a food blog created as part of a "create your own website" project. It features basic search for the recipy articles, night-mode choice
+A simple static site for a food blog, built for a “Create Your Own Website” project.
+Features:
+- Basic recipe/article search
+- Dark mode (night mode) toggle
